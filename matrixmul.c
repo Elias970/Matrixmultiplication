@@ -15,10 +15,10 @@ int product[MAX][MAX];
 int sum=0;
 int i,j,k;
 
-printf ("Enter the rows and Columns of matrix a: \n");
-scanf ("%d %d", &aRows, &aColumns);
+	printf ("Enter the rows and Columns of matrix a: \n");
+	scanf ("%d %d", &aRows, &aColumns);
 
-printf ("Enter elements of matrix a: \n");
+	printf ("Enter elements of matrix a: \n");
     for (int i = 0; i < aRows; i++) {
         for (int j = 0; j < aColumns; j++) {
             scanf("%d", &a[i][j]);
@@ -26,8 +26,8 @@ printf ("Enter elements of matrix a: \n");
     }
 
 
-printf ("Enter the rows and Columns of matrix b: ");
-scanf ("%d %d", &bRows, &bColumns);
+	printf ("Enter the rows and Columns of matrix b: ");
+	scanf ("%d %d", &bRows, &bColumns);
     // check if Rows of Matrix a = Columns of Matrix b
     if (bRows != aColumns){
         printf("Sorry, the matrices cannot be multiplied.\n");
